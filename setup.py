@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': ['ik_listener = robot_ik.ik:main',
+        'ik_publisher = robot_ik.ik:main',
         ],
     },
 )
